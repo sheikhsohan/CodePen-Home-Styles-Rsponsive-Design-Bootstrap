@@ -1,0 +1,135 @@
+.navbar-brand{
+    color: #ed4f0b;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.nav-link{
+    color: #eb5d1e;
+}
+a{
+  text-decoration: none;
+}
+.navbar-toggler{
+    border-color: #eb5d1e;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28235, 93, 30, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* nav bar end */
+#banner {
+  width: 100%;
+  height: 70vh;
+  background: #fef8f5;
+  border-bottom: 2px solid #fcebe3;
+}
+#banner h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #4e4039;
+    text-transform: uppercase;
+}
+  #hero h2 {
+    color: #a08f86;
+    margin: 15px 0 0 0;
+    font-size: 24px;
+}
+#banner .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: #fff;
+    background: #eb5d1e;
+}
+#banner .btn-get-started:hover {
+    background: #ef7f4d;
+}
+@media (max-width: 991px) {
+    #banner {
+      height: calc(100vh - 72px);
+    }
+  
+    #banner .hero-img {
+      text-align: center;
+    }
+  
+    #banner .hero-img img {
+      width: 50%;
+    }
+  }
+  @media (max-width: 768px) {
+    #banner h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #banner h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    #banner .hero-img img {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #banner .banner-img img {
+      width: 80%;
+    }
+  }
+  @media (max-height: 600px) {
+    #banner {
+      height: 120vh;
+    }
+  }
+  /* banner end */
+
+  .services .center1{
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+  }
+  .services .icon-box:hover {
+    transform: translateY(-5px);
+    border-color: #ef7f4d;
+  }
+  .services .icon i {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: #ef7f4d;
+  }
+  .services .title a {
+    color: #111;
+  }
+  
+  .services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
